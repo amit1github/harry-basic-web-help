@@ -1,0 +1,169 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is decription">
+    <!-- to add keywords for search engine for ranking -->
+    <meta name="keywords" content="html css js">
+    <!-- to tell search engine robots to index the file and follow links -->
+    <meta name="robots" content="index follow">
+    <title>Document</title>
+    <!-- to include external css -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Web-Tutorial</h1>
+    <hr>
+    <!-- heading and paragraphs -->
+    <h3>heading and Emmet</h3>
+    <p> Lorem, ipsum dolor sit amet <strong>this is to bold keywords</strong> consectetur adipisicing elit. nostrum. In,
+        ducimus consequuntur veritatis necessitatibus modi esse dolor <em>this is to italic keywords</em> assumenda
+        commodi? <br>
+        <hr>
+
+        <!-- URL -->
+        <h3>TO insert URL</h3>
+        <a href="https://google.com" target="_blank">Welcome to google</a> <br>
+        <a href="https://linkedin.com" target="_blank">Welcome to linkedin</a>
+        <hr>
+
+        <!-- image -->
+        <h3>insert image</h3>
+        <img src="amit.jpg" alt="Image not found"> <br>
+        <img src="https://images.unsplash.com/photo-1599420186946-7b6fb4e297f0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&auto=format&fit=crop&w=400&q=60"
+            alt="diagram from unsplash" width="100" height="100">
+        <hr>
+
+
+        <!-- orderd/unordered list -->
+        <h3>Ordered list/ unordered list</h3>
+        <ul>
+        <li>this is first item of unordered list</li>
+        <li>this is Second item of unordered list</li>
+        <ul type="circle">
+            <li>this is first item of "hollow circle" unordered list</li>
+            <li>this is Second item of "hollow cirlce" unordered list</li>
+            <ul type="square">
+                <li>this is first item of "sqaure" unordered list</li>
+                <li>this is Second item of "sqaure" unordered list</li>
+            </ul>
+        </ul>
+    </ul>
+
+    <ol type="1">
+        <li>this is 1st item orderd list</li>
+        <li>this is 2nd item orderd list</li>
+    </ol>
+    <ol type="I">
+        <li>this is 1st item orderd list</li>
+        <li>this is 2nd item orderd list</li>
+    </ol>
+    <ol type="a">
+        <li>this is 1st item orderd list</li>
+        <li>this is 2nd item orderd list</li>
+    </ol>
+    <hr>
+
+    <!-- table -->
+    <h3>Table</h3>
+    <table>
+        <thead>
+            <th>Emp-id</th>
+            <th>Name</th>
+            <th>Employee role</th>
+        </thead>
+        <tbody>
+            <tr>
+                <td>123</td>
+                <td>Amit</td>
+                <td>Programmer</td>
+            </tr>
+            <tr>
+                <td>111</td>
+                <td>AmitKid</td>
+                <td>HTML, CSS</td>
+            </tr>
+        </tbody>
+    </table>
+    <hr>
+
+    <!-- FORMS -->
+
+    <h3>Forms</h3>
+    <form action="backend.php">
+        <div>
+            <label for="name">Name</label>
+            <input type="text" name="myName" id="name">
+        </div>
+        <br>
+        <div>
+            <label for="role">Role:</label>
+            <input type="text" name="myRole" id="role">
+        </div>
+        <br>
+        <div>
+            <label for="email">Email:</label>
+            <input type="email" name="myEmail" id="email">
+        </div>
+        <br>
+        <div>
+            <label for="date">Date:</label>
+            <input type="date" name="myDate" id="date">
+        </div>
+        <br>
+        <div>
+            <label for="dateTime">Date & Time:</label>
+            <input type="datetime-local" name="myDateTime" id="dateTime">
+        </div>
+        <br>
+        <div>
+            <label for="bonus">Bonus</label>
+            <input type="number" name="myBonus" id="bonus">
+        </div>
+        <br>
+        <div>
+            <label for="eligibility">Are you Eligible?</label>
+            <input type="checkbox" name="myCheckbox" id="eligibility">
+        </div>
+        <br>
+        <div>
+            <label for="gender">Gender:</label>
+            Male <input type="radio" name="myGender" id="gender">
+            Female <input type="radio" name="myGender" id="gender">
+            Others <input type="radio" name="myGender" id="gender">
+        </div>
+        <br>
+        <div>
+            <label for="about">Write about Yourself:</label><br>
+            <textarea name="mySelf" id="about" cols="30" rows="10"></textarea>
+        </div>
+        <br>
+        <div>
+            <label for="car">Car: </label>
+            <select name="myCar" id="car">
+                <option value="swft">Swift</option>
+                <option value="ind" selected>Indica</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            <input type="submit" value="Submit Now">
+            <input type="reset" value="Reset Now">
+        </div>
+        <br>
+    </form>
+    <hr>
+    <h3>For details or Summary</h3>
+    <div>
+        <details>Lorem ipsum dolor sit amet consectetur adipisicing elit. Eum dolor rem possimus ratione. Dolorum ipsa quidem in exercitationem earum eum sequi magnam qui pariatur quo adipisci, temporibus sed laboriosam ut voluptates, commodi rerum dolor! Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, nam saepe. Vero quia quas amet laborum harum nisi cupiditate! Fugit blanditiis quibusdam eaque odio doloremque a voluptate obcaecati, laborum atque!
+        Ex, expedita animi. Exercitationem rem ipsa voluptatibus, dolor quos impedit! Ad et quaerat, voluptas quae voluptatem inventore. Sint animi amet blanditiis quia iusto minima consequuntur cupiditate fuga. Voluptas, ab voluptatem.
+        </details>
+    </div>
+    <br>
+</body>
+
+</html>

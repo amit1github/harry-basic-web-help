@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Box Model, Margin & Paddding</title>
+    <style>
+        *{
+            box-sizing: border-box;
+        }
+
+        .container {
+            background-color: antiquewhite;
+            border: 2px solid red;
+            border-radius: 12px;
+            /* padding: top right bottom left */
+            /* padding: 6px 0px 8px 10px;   */
+            /* padding in Y(top/bottom) X(right/left) */
+            padding: 20px 40px;
+            height: 300px;
+            width: 300px;
+            margin: 20px 30px 20px 40px;
+        }
+        
+        .containertwo{
+            background-color: burlywood;
+            border: 2px solid blue;
+        }
+    </style>
+</head>
+<body>
+    <h2>Box Model, Margin & Padding</h2>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias exercitationem officiis labore magnam unde est, tempore adipisci esse ea, omnis, aliquid corrupti perferendis vitae aliquam quae? Sunt, id repudiandae!</p>
+    </div>
+    <br>
+    <div class="container">
+        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum molestias exercitationem officiis labore magnam unde est, tempore adipisci esse ea, omnis, aliquid corrupti perferendis vitae aliquam quae? Sunt, id repudiandae!</p>
+    </div>
+
+
+</body>
+</html>
